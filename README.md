@@ -49,15 +49,15 @@ El primer paso fue pensar en cómo sería el producto en sí, es decir, la final
 El segundo paso fue pensar en los colores de la aplicación y el orden de los elementos. Debía contar con recuadros de texto, botones, instrucciones de uso, etc. El diseño fue cambiando a lo largo del desarrollo de la aplicación, todo esto relacionado con el testeo con personas: la opinión de posibles futuros usuarios fue esencial.
 
 El primer bosquejo a papel:
-![diseño en papel](images/diseñopapel.jpg)
+![diseño en papel](/src/images/diseñopapel.jpg)
 
 Diseños en figma:
 ![diseño en figma](/src/images/diseño1.png)
 ![diseño en figma](images/diseño2.png)
 
 Diseño final aplicado en la web:
-![diseño web](images/web1.png)
-![diseño web](images/web2.png)
+![diseño web](/src/images/images/web1.png)
+![diseño web](/src/images/images/web2.png)
 
 
 ### 4. Elementos del diseño final y funcionalidad
