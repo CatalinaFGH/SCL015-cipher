@@ -53,11 +53,11 @@ El primer bosquejo a papel:
 
 Diseños en figma:
 ![diseño en figma](/src/images/diseño1.png)
-![diseño en figma](images/diseño2.png)
+![diseño en figma](/src/images/diseño2.png)
 
 Diseño final aplicado en la web:
-![diseño web](/src/images/images/web1.png)
-![diseño web](/src/images/images/web2.png)
+![diseño web](/src/images/web1.png)
+![diseño web](/src/images/web2.png)
 
 
 ### 4. Elementos del diseño final y funcionalidad
