@@ -52,7 +52,7 @@ El primer bosquejo a papel:
 ![diseño en papel](images/diseñopapel.jpg)
 
 Diseños en figma:
-![diseño en figma](SCL015-cipher/src/images/diseño1.png)
+![diseño en figma](/src/images/diseño1.png)
 ![diseño en figma](images/diseño2.png)
 
 Diseño final aplicado en la web:
