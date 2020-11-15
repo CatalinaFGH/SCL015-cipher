@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: relative;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    color: #000000;
+}
+
+.buttons{
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: outset;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons:hover{
+    background-color: #3CD4EA;
+}
+
+.displayContainer{
+    background-color: #8cece2;
+    margin: 60px 650px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 10px 10px #D8DFE5;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 50px 0px 0px 0px;
+    font-size: 30px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+p{
+    padding: 25px;
+}
+
+.displayContainer2{
+    background-color: #8cece2;
+    margin: 60px 650px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 10px 10px #D8DFE5;
+    border-radius: 20px;
+    display: none;
+}
+
+input{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: ridge;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    height: 20px;
+    width: 40px;
+}
+
+label[for="message"]{
+    display: block;
+}
+
+textarea{
+    font-size: 20px;
+    text-align: left;
+    width: 450px;
+    height: 100px;
+    border: ridge;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
