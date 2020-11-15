@@ -52,6 +52,7 @@ El primer bosquejo a papel:
 ![diseño en papel](/src/images/diseñopapel.jpg)
 
 Diseños en figma:
+
 ![diseño en figma](/src/images/diseño1.png)
 
 ![diseño en figma](/src/images/diseño2.png)
