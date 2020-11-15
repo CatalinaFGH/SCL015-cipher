@@ -53,6 +53,7 @@ El primer bosquejo a papel:
 
 Diseños en figma:
 ![diseño en figma](/src/images/diseño1.png)
+
 ![diseño en figma](/src/images/diseño2.png)
 
 Diseño final aplicado en la web:
