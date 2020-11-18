@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(imagen/fondo.jpg);
+    background-image: url(images/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ body{
     border-radius: 20px;
 }
 
-h1{
+.titulo{
     padding: 50px 0px 0px 0px;
     font-size: 30px;
 }
@@ -57,7 +57,7 @@ img{
     margin: 10px;
 }
 
-p{
+.parrafo{
     padding: 25px;
 }
 
@@ -71,7 +71,7 @@ p{
     display: none;
 }
 
-input{
+.input{
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -82,11 +82,11 @@ input{
     width: 40px;
 }
 
-label[for="message"]{
+.label[for="message"]{
     display: block;
 }
 
-textarea{
+.textarea{
     font-size: 20px;
     text-align: left;
     width: 450px;
