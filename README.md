@@ -6,7 +6,6 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-definición-del-producto)
 * [3. Objetivos de aprendizaje](#3-proceso-de-diseño-y-definición-del-usuario)
-* [4. Consideraciones generales](#4-elementos-del-diseño-final-y-funcionalidad)
 
 ***
 
@@ -45,7 +44,7 @@ aplicación en el sistema ROT13.
 
 ## 3. Proceso de diseño y definición del usuario
 
-El primer paso fue pensar en cómo sería el producto en sí, es decir, la finalidad y su funcionalidad. La idea era crear una web que permitiera escribir un texto completo dentro de un recuadro para luego cifrarlo y descifrarlo. Entonces, después de pensar en el público objetivo, el futuro usuario, su rango etareo, afinidad con la tecnología, etc. Decidí dirigir el producto a los adolescentes y al adulto joven (entre 15 y 30 años).
+El primer paso fue pensar en cómo sería el producto en sí, es decir, su funcionalidad. La idea era crear una web que permitiera escribir un texto completo dentro de un recuadro para luego cifrarlo y descifrarlo. Entonces, después de pensar en el público objetivo, el futuro usuario, su rango etareo, afinidad con la tecnología, etc. Decidí dirigir el producto a los adolescentes y al adulto joven (entre 15 y 30 años).
 
 El segundo paso fue pensar en los colores de la aplicación y el orden de los elementos. Debía contar con recuadros de texto, botones, instrucciones de uso, etc. El diseño fue cambiando a lo largo del desarrollo de la aplicación, todo esto relacionado con el testeo con personas: la opinión de posibles futuros usuarios fue esencial.
 
@@ -56,19 +55,5 @@ Diseños en figma:
 
 ![diseño en figma](/src/images/diseño1.png)
 
-![diseño en figma](/src/images/diseño2.png)
-
 Diseño final aplicado en la web:
-![diseño web](/src/images/web1.png)
-![diseño web](/src/images/web2.png)
-
-
-### 4. Elementos del diseño final y funcionalidad
-
-Características del producto:
-1. Pantalla de bienvenida con instrucciones de uso de la aplicación y botón de "Empecemos".
-2. Pantalla principal para cifrar y descifrar un mensaje:
-   * Un recuadro pequeño donde se ingresa un número del 1 al 100.
-   * Dos recuadros de texto, en uno se escribirá el mensaje original y en el otro se mostrará el mensaje cifrado o descifrado.
-   * Tres botones, uno para cifrar, otro para descifrar un texto y el último para borrar el contenido de los recuadros.
-
+![diseño web](/src/images/diseñofinal.png)
