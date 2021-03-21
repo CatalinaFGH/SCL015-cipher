@@ -2,37 +2,67 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mensajes Secretos</title>
+    <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
   </head>
    <body>
     <!-- Primera pantalla: bienvenida y explicación del producto -->
-      <section class="displayContainer" id="welcomeDisplay">
-       <h1 class="titulo"><img src="images/message.png">Mensajes secretos<img src="images/message.png"></h1>
-         <p class="parrafo">¿Quieres mandarles mensajes codificados a tus amigos?
-            ¡Puedes hacerlo con el cifrado César!
-            Solo debes ingresar un número del 1 al 100,
-            que será la base para tu código, y escribir tu mensaje.
-            No olvides tu número, ya que con él podrás decodificar los mensajes que hayas recibido...
-          </p>
-               <button id="nextDisplayButton" class="buttons">Empecemos</button>
+      <section class="display-container" id="welcomeDisplay">
+        <div class="welcome-page-container">
+          <h1 class="main-title">Mensajes cifrados</h1>
+          <p class="instructions">¿Quieres mandar mensajes secretos?<br>
+                                    ¡Puedes hacerlo con el cifrado César!</p>
+            <p class="instructions">Solo ingresa un número secreto y úsalo como llave para descifrar tus mensajes...</p>
+              <div class="buttons-container">
+                 <button id="nextDisplayCipherButton" class="welcome-buttons">
+                   <img src="images/locked.svg" class="lockedImage" alt="locked"><br>Cifrar
+                 </button>
+                 <button id="nextDisplayDecipherButton" class="welcome-buttons">
+                   <img src="images/unlocked.svg" class="unlockedImage" alt="unlocked">Descifrar
+                 </button>
+              </div>
+        </div>
       </section>
-    <!-- Segunda pantalla: sección principal de cifrado y descifrado -->
-    <!-- Segunda pantalla: sección principal de cifrado y descifrado -->
-      <section class="displayContainer2" id="cipherDisplay">
-        <label for="number">Ingresa un número:</label>
-        <input type="number" id="displacement" class="input" min="1" max="100">
-   
-        <label for="message" class="label">Escribe aquí tu mensaje:</label>
-        <textarea type="text" id="message" class="textarea"></textarea>
 
-        <button id="cipher"   class="buttons">Codificar</button>
-        <button id="decipher" class="buttons">Decodificar</button>
+    <!-- Segunda pantallaA: sección principal de cifrado -->
+      <section class="display-container" id="cipherDisplay">
+           <div class="cipher-page-container">
 
-        <textarea type="text" id="message2" class="textarea"></textarea>
+             <div class="header-container">
+               <div class="displacement-input-container">
+                 <img src="images/previous.svg" alt="return" class="return-button" id="returnButton">
+                 <label for="number">Ingresa un número del 1 al 100:</label>
+                 <input type="number" class="displacement-input" id="displacement" min="1" max="100">
+               </div>
+               
+             </div>
 
-        <button id="cleanTextAreaButton" class="buttons">Reiniciar</button>
+               <textarea type="text" id="messageToCipher" placeholder="Escribe aquí tu mensaje..."></textarea>
+               <button id="cipherButton" class="buttons">Cifrar</button>
+               <div id="cipheredMessage" class="ciphered-message"></div>
+               <button id="cleanTextAreaButton" class="buttons">Borrar</button>
+
+           </div>
+      </section>
+
+    <!-- Segunda pantallaB: sección principal de descifrado -->
+     <section class="display-container" id="decipherDisplay">
+            
+          <div class="decipher-page-container">
+
+            <div class="header-container">
+              <img src="images/previous.svg" alt="return" class="return-button" id="returnButton2">
+              <label for="number">Ingresa tu número secreto:</label>
+              <input type="number" class="displacement-input" id="displacement2" min="1" max="100">
+            </div>
+
+              <textarea type="text" id="messageToDecipher" placeholder="Escribe aquí tu mensaje..."></textarea>
+              <button id="decipherButton" class="buttons">Descifrar</button>
+              <div id="decipheredMessage" class="deciphered-message"></div>
+              <button id="cleanTextAreaButton2" class="buttons">Borrar</button>
+
+          </div>
       </section>
 
     <script src="index.js" type="module"></script>
