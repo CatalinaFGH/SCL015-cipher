@@ -232,3 +232,63 @@ textarea{
     border-width: 1px;
     border-color: #00000085;
 }
+
+@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
+
+    body{
+        background-image: url(images/fondomobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .display-container {
+        margin: 0px 0px;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+
+    .welcome-page-container{
+        margin-top: 0px;
+    }
+
+    .welcome-buttons{
+        font-size: 18px;
+        border: 1px;
+        width: 35vw;
+        height: 20vh;
+    }
+    
+    #nextDisplayCipherButton{
+        margin: 0px 0px;
+    }
+    
+    #nextDisplayDecipherButton{
+        margin: 0px 0px;
+    }
+
+    .buttons-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .cipher-page-container {
+    margin-top: 0px;
+    }
+
+    .decipher-page-container{
+    margin-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
